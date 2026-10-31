@@ -1,4 +1,33 @@
+* {
+  background-color: rgba(252, 252, 252, 0.916);
+}
+
 body {
   font-family: "Noto Serif Georgian", serif;
   color: rgb(24, 131, 224);
+}
+
+.price {
+  font-weight: bold;
+  color: rgb(26, 112, 186);
+}
+
+.product-title {
+  font-size: 1.5rem;
+  color: rgb(24, 131, 224);
+}
+
+button {
+  background-color: rgb(67, 24, 224);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+article {
+  border: 1px solid rgb(24, 131, 224);
+  padding: 30px;
+  margin: 20px;
+  border-radius: 5px;
 }
